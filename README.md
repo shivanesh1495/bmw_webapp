@@ -1,12 +1,26 @@
-# React + Vite
+# React + Vite + Three.js BMW 3D Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases a realistic **3D BMW car model** rendered in the browser using **Three.js**, built with **React** and **Vite** for a fast and modern development experience.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – UI library for building interactive interfaces.
+- **Vite** – Lightning-fast bundler with Hot Module Replacement.
+- **Three.js** – For loading and rendering 3D content in WebGL.
+- **@vitejs/plugin-react** – Babel-based fast refresh with React.
+- **ESLint** – For maintaining clean, error-free code.
+- **GLTF/GLB** – Format used for the BMW 3D model.
 
-## Expanding the ESLint configuration
+## 🚗 Project Highlights
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Realistic **3D BMW car model** integrated using `GLTFLoader`.
+- Responsive scene with adjustable camera and lighting.
+- Orbit controls enabled for rotating and zooming into the car.
+- Optimized asset loading and smooth rendering performance.
+
+## 🚀 Getting Started
+
+### Install dependencies:
+
+```bash
+npm install
